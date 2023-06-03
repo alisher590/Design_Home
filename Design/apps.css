@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700&display=swap');
+*{
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./РЕФЕРЕНС\ _КАМЕНЬ_.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 1920px;
+    margin:  0 auto;
+}
+.Child_head{
+    min-height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 80px;
+    padding-top: 80px;
+    background-image: url(./Dark\ color\ Loft\ interior.jpeg);
+}
+ h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 150px;
+    font-weight: 400;
+    color: white;
+}
+.Our_company{
+    min-height: 500px;
+    background-color: #485461;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+.item_comp{
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 380px;
+    font-size: 16px;
+    transition: 1s;
+}
+
+.item_comp:hover{
+    background-color: whitesmoke;
+    color: black;
+    transform: scale(1.2);
+    border: 20px solid orangered;
+}
+.item_comp:nth-child(1){
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    width: 300px;
+    height: 380px;
+    border: 20px solid orangered;
+    transition: 1s;
+}
+.item_comp:nth-child(1):hover{
+    background-color: whitesmoke;
+    color: black;
+    transform: scale(1.2);
+}
+.Out_designer{
+    min-height: 1800px;
+    background-color: #923cb5;
+    background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+
+}
+.design_pople{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 100px;
+}
+.element{
+    width: 350px;
+    height: 400px;
+    background-image: url(./_\ \(1\).jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.element:hover{
+    transform: scale(1.2);
+    border: 20px solid orangered;
+}
+.element:nth-child(3){
+    width: 350px;
+    height: 400px;
+    background-image: url(./_\ \(2\).jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.element:nth-child(3):hover{
+    border: 20px solid orangered;
+    transform: scale(1.2);
+}
+
+.element:nth-child(2){
+    width: 350px;
+    height: 400px;
+    background-image: url(./40\ Joyful\ Simple\ Things\ In\ Life\ Photography\ Ideas\ -\ Bored\ Art.png);
+    filter: contrast(150%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.element:nth-child(2):hover{
+    border: 20px solid orangered;
+    transform: scale(1.2);  
+}
+.item_comp1{
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    width: 350px;
+    height: 400px;
+    border: 20px solid orangered;
+    transition: 1s;
+}
+.item_comp2{
+    display: none;
+}
+.item_comp1:hover{
+    background-color: whitesmoke;
+    color: black;
+    transform: scale(1.2);
+}
+.text_more_design{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+}
+.click_more{
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(315deg, #485461 0%, #191b1e 74%);
+    color: white;
+    font-size: 20px;   
+    font-family: 'Raleway', sans-serif;
+    transition: 2s;
+}
+.click_more:hover{
+    transform: translate(12px, 50%);
+    background-image: linear-gradient(315deg, #faf0e6 0%, #fffafa 74%);
+    color: black;
+
+}
+.read_more{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 50px;
+    margin-top: 80px;
+}
+.grid_image{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);;
+    grid-template-rows: repeat(2, 400px); 
+    padding-left: 110px;
+    padding-right: 110px;
+    grid-gap: 30px;
+    margin-top: 100px;
+}
+.wrap_design:nth-child(1){
+    background-image: url(./Гостиная\ в\ Стиле\ Арт-Деко_\ Модно\ ли\ в\ 2021\ -\ 69\ Фото\ \(реальные\).jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 2s;
+}
+.wrap_design:nth-child(2){
+    background-image: url(./_\ \(4\).jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 2s;
+}
+.wrap_design:nth-child(3){
+    border: 20px solid orange;
+    background-color: whitesmoke;
+    padding-left: 50px;
+    padding-top: 10px;
+    transition: 2s;
+}
+.wrap_design:nth-child(4){
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);;
+    grid-template-rows: repeat(1, 200px); 
+    gap: 10px;
+}
+.content:nth-child(1){
+    background-image: url(./Пин\ от\ пользователя\ Julia\ Rusetckaya\ на\ доске\ поздравления\ и\ пожелания\ _\ Еда\ кафе\,\ Пора\ пить\ кофе\,\ Еда.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content:nth-child(3){
+    background-image: url(./PALISSANDRE\ -\ элитная\ итальянская\ мебель.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content:nth-child(2){
+    background-image: url(./_\ \(5\).jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;  
+}
+.wrapper_text b{
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    
+}
+.wrapper_text p{
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+.click_projeckt{
+    width: 200px;
+    height: 50px;
+    background-color: #484a4d;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    transition: 2s;
+}
+.click_projeckt:hover{
+    background-color: wheat;
+    color: black;
+}
+.About_Designer{
+    min-height: 600px;
+    background-color: #923cb5;
+    background-image: linear-gradient(147deg,#000000  0%, #923cb5 104%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.img_personal{
+    width: 200px;
+    height: 200px;
+    background-image: url(./HELDER\ AFONSO.jpeg);
+    background-position: start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+}
+.text_in_person{
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.text_fat b{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.line_personal{
+    border: 10px solid orange;
+    width: 300px;
+}
+.left_info-diesign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.right_info-diesign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.img_personal_right{
+    width: 200px;
+    height: 200px;
+    background-image: url(./🍒Sasha\ ✧･🍒\ \(@Sasha_1I\)\ _\ Twitter.png);
+    background-position: start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+}
+.foot_img{
+    min-height: 400px; 
+    background-image: url(./PALISSANDRE\ -\ элитная\ итальянская\ мебель\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+.foot_design{
+    min-height: 500px;
+    background-color: #485461;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+.left_foot{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+}
+.right_foot{
+    width: 600px;
+    height: 400px;
+    border: 20px solid orangered;
+    background: rgb(237, 232, 232);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.click_foot{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
